@@ -1,0 +1,131 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    margin : 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    margin: 5% 12%;
+    width: 80%;
+    height: 80%;
+}
+.community {
+    width: 85%;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 5%;
+    height: 50%;
+    line-height: 1.5;
+}
+.community-title {
+    color: hsl(179, 62%, 43%);
+    margin-top: 0;
+    font-weight: 900;
+}
+.community-heading{
+    color: hsl(71, 73%, 54%);
+}
+.community-desc{
+    color: hsl(218, 22%, 67%);
+    margin-bottom: 0;
+}
+
+.grid-desc{
+    display: flex;
+    flex-wrap: wrap;
+    color: hsl(204, 43%, 93%);
+    width: 100%;
+}
+
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+    padding: 5% 0 4% 5%;
+    height: 60%;
+    width: 45%;
+}
+.subscription-title{
+    margin-top: 0;
+    font-weight: 400;
+}
+.subscription-period{
+    margin-top: 0;
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+.subscription-price{
+    margin-top: 0;
+    opacity: 1;
+    margin-right: 5px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.subscription-access{
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+.btn {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 24px;
+    background: hsl(71, 73%, 54%);
+    padding: 3% 33%;
+} 
+.btn:hover {
+    cursor: pointer;
+}
+
+.about-us{
+    background-color: hsl(179, 51%, 49%);
+    float: right;
+    padding: 5% 0 4% 5%;
+    height: 60%;
+    width: 40%;
+}
+.about-title {
+    margin-top: 0;
+}
+.list-items {
+    list-style-type: none;
+    line-height: 1.5;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width:769px){
+    .subscription{
+        height: 219px;
+        border-radius: 0 0 0 10px;
+    }
+    .about-us{
+        height: 219px;
+        border-radius: 0 0 10px 0;
+    }
+}
+@media (max-width:768px) {
+    .community{
+        padding: 10%;
+        width:80%;
+    }
+    .subscription{
+        height: 60%;
+        width:100%;
+        padding: 7% 7% 3% 10%;
+    }
+    .btn{
+        font-size: 1.2rem;
+    }
+    .subscription-access{
+        font-size: 1rem;
+    }
+    .about-us{
+        height: 60%;
+        width:100%;
+        padding: 5% 5% 5% 10%;
+        border-radius: 0 0 10px 10px;
+    }
+}
